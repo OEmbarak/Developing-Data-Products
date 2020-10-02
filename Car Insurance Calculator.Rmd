@@ -1,0 +1,51 @@
+---
+title: "Car Inusrance Calculator"
+author: "Ossama Embarak"
+date: "10/2/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Outlines
+
+**Introduction**
+
+This is the RStudio shiny framework developed as a course project for Coursera 's Emerging Digital Items course on Data Science Specialization. The application built is a basic calculator of interest.
+
+**Course project requirements**
+
+The specifications of the course project for this application are as follows: 
+Some type of input (widget: textbox, radio button, checkbox, ...) Some activity on the ui data in sever. R Some reactive output shown as a result of server measurements You must also provide adequate documentation to enable a beginner user to use your program. The documentation should be on the New website itself. Don't post to an external connection. 
+
+
+## Application - Widgets
+
+The shiny app for this project is a basic car insurance calculator. It contains the following widgets: 
+
+1.	InputField – To enter car price value 
+
+2.	sliderInput – for years of manufacturing 
+
+3.	sliderInput – for insurance period 
+
+4.	Selectinput- for insurance type {Full, Half, against others}
+
+5.	actionButton – a button to calculate the insurance value for the given details.
+
+
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
